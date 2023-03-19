@@ -2,7 +2,7 @@ import scrapy
 from bs4 import BeautifulSoup
 from lab2.items import AlloItem
 
-class LaptopsSpider(scrapy.Spider):
+class AlloSpider(scrapy.Spider):
     name = "allo"
     allowed_domains = ["allo.ua"]
     start_urls = [
